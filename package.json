@@ -1,0 +1,28 @@
+{
+  "name": "astromesh-node-html",
+  "version": "1.0.0",
+  "description": "AstroMesh: a Node.js + vanilla HTML app that blends astrology and current weather insights.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "keywords": [
+    "astrology",
+    "weather",
+    "horoscope",
+    "express",
+    "openweathermap",
+    "freeastrologyapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
